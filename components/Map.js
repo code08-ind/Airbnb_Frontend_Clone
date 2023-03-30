@@ -11,6 +11,8 @@ const Map = ({ InfoCards }) => {
         latitude: result.lat,
     }));
 
+    console.log(coordinates);
+
     // the latitude and longitude of the center of location coordinates
     const center = getCenter(coordinates);
 
@@ -29,7 +31,7 @@ const Map = ({ InfoCards }) => {
             {...viewport}
             onViewportChange={(nextViewport) => setViewport(nextViewport)}
         >
-            {searchResults.map(result => (
+            {InfoCards.map(result => (
                 <div key={result.long}>
                     <Marker
                         longitude={result.long}

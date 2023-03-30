@@ -5,7 +5,7 @@ import { useRouter } from 'next/dist/client/router';
 import { format } from 'date-fns';
 import InfoCard from '../components/InfoCard';
 import InfoCards from '../data/InfoCards.js'
-import Map from '../components/Map';
+// import Map from '../components/Map';
 
 const Search = () => {
     const router = useRouter();
@@ -34,9 +34,9 @@ const Search = () => {
                         ))}
                     </div>
                 </section>
-                <section className='hidden xl:inline-flex xl:min-w-[600px]'>
+                {/* <section className='hidden xl:inline-flex xl:min-w-[600px]'>
                     <Map InfoCards={InfoCards} />
-                </section>
+                </section> */}
             </main>
             <Footer />
         </div>

@@ -1,15 +1,15 @@
 const InfoCards = [
-    {
-        img: "https://links.papareact.com/xqj",
-        location: 'Private Room In Center Of London',
-        title: 'Stay at this spacious House',
-        description: '1 guest . 1 bedroom . 1 bed . 1.5 shared bathrooms . WiFi . Free Parking . Washing Machine . Kitchen',
-        star: 4.73,
-        price: '$30/night',
-        total: '$117 total',
-        long: -0.0022275,
-        lat: 51.5421655,
-    },
+    // {
+    //     img: "https://links.papareact.com/xqj",
+    //     location: 'Private Room In Center Of London',
+    //     title: 'Stay at this spacious House',
+    //     description: '1 guest . 1 bedroom . 1 bed . 1.5 shared bathrooms . WiFi . Free Parking . Washing Machine . Kitchen',
+    //     star: 4.73,
+    //     price: '$30/night',
+    //     total: '$117 total',
+    //     long: -0.0022275,
+    //     lat: 51.5421655,
+    // },
     {
         img: "https://links.papareact.com/hz2",
         location: 'Private Room In Center Of London',
